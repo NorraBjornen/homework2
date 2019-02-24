@@ -2,5 +2,5 @@
     <string name="app_name">Документы</string>
     <string name="menu_add">Добавить</string>
     <string name="menu_delete">Удалить</string>
-    <string name="default_document_label">Документ №</string>
+    <string name="default_document_label">Документ №%1$d</string>
 </resources>

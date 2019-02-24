@@ -31,7 +31,7 @@ class MyFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         val view = inflater.inflate(R.layout.document, container, false)
         val txt = view.findViewById<TextView>(R.id.txt)
-        txt.append("$number")
+        txt.text = resources.getString(R.string.default_document_label, number)
         return view
     }
 }
